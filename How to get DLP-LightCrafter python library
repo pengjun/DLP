@@ -1,0 +1,7 @@
+1 cd /opt/scripts
+2 git pull
+3 cd /opt/scripts/device/bone/capes/DLP*
+4 cd DLP*
+5 tar -xvf dlp-lightcrafter*
+6 cd dlp-lightcrafter*
+7 python setup.py install
