@@ -1,0 +1,5 @@
+1 open terminal and change to root
+  su root
+2 edit /etc/rc.local file by using nano
+  nano /etc/rc.local
+3 add your startup script before "exit 0" line
