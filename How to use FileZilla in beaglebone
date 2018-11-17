@@ -1,0 +1,10 @@
+1 sudo apt-get install vsftpd
+2 sudo service vsftpd start
+3 sudo nano /etc/vsftpd.conf
+  uncomment the line "write_enable=YES"
+  save this file by press Ctrl+O
+  exit nono by press Ctrl+X
+4 sudo service vsftpd restart
+5 download FileZilla from https://filezilla-project.org/
+6 install filezilla and open it
+7 connect beaglebone by using the beaglebone IP, username is debian, password is pwd
