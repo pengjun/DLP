@@ -1,0 +1,8 @@
+when i run pygame in python, its have error:
+pygame.error: No video mode large enough for 640x360
+
+it's because /etc/fb.modes is null or empty, what you need to do is run the command below:
+
+sudo fbset -i > /etc/fb.modes
+
+then rerun pygame, it will be ok
