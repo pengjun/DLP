@@ -1,0 +1,7 @@
+sudo python -m pip install --upgrade pip
+
+you can install python packages using the below command:
+sudo python -m pip install PyOpenGL
+
+you can check the installed python packages using the below command:
+sudo python -m pip list
