@@ -1,0 +1,7 @@
+sudo nano /etc/lightdm/lightdm.conf
+
+change:
+autologin-user=debian
+
+to
+autologin-user=root 
