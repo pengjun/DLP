@@ -1,0 +1,7 @@
+just remove the execution bit on the lightdm binary.
+
+chmod -x /usr/sbin/lightdm
+
+Then to re-enable it:
+
+chmod +x /usr/sbin/lightdm
