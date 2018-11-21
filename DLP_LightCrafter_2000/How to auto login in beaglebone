@@ -1,0 +1,5 @@
+cd /etc/systemd/system/getty.target.wants
+sudo cp getty\@tty1.service getty\@tty1.service.bak
+sudo sed -i -e "s/\/sbin\/agetty/\0 --login-pause --autologin root/" /etc/systemd/system/getty.target.wants/getty@tty1.service
+sudo systemctl daemon-reload
+sudo reboot
